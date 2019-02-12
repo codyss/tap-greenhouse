@@ -70,7 +70,7 @@ class ApplicationsStream(Stream):
             "type": ["null", "array"]
         },
         "status": {
-            "type": ["null", "sting"]
+            "type": ["null", "string"]
         },
         "current_stage": {
             "properties": {}
