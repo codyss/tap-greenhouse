@@ -1,4 +1,4 @@
-from ..tap_kit.streams import Stream
+from tap_kit.streams import Stream
 
 
 class ApplicationsStream(Stream):

@@ -10,14 +10,14 @@ setup(
     classifiers=["Programming Language :: Python :: 3 :: Only"],
     py_modules=["tap_greenhouse"],
     install_requires=[
-        "singer-python>=5.0.12",
+        "singer-python==5.2.0",
         'requests==2.18.4',
         "pendulum==1.2.0",
+        "tap-kit @ git+https://github.com/Radico/tap-kit.git@master"
     ],
     entry_points="""
     [console_scripts]
     tap-greenhouse=tap_greenhouse:main
-    tap-greenhouse-class=tap_greenhouse.class_invoke:class_main
     """,
     packages=["tap_greenhouse"],
     include_package_data=True,
