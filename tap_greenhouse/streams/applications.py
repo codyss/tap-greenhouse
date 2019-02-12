@@ -23,7 +23,7 @@ class ApplicationsStream(Stream):
             "type": ["null", "integer"]
         },
         "prospect": {
-            "type": ["null", "integer"]
+            "type": ["null", "string", "boolean"]
         },
         "applied_at": {
             "type": [
