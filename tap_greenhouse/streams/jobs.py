@@ -283,7 +283,8 @@ class JobsStream(Stream):
             },
             "value": {
               "type": [
-                "null"
+                "null",
+                "object"
               ]
             }
           }
@@ -309,7 +310,7 @@ class JobsStream(Stream):
             "value": {
               "type": [
                 "null",
-                "integer",
+                "object",
               ]
             }
           }
