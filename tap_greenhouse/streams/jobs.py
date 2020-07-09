@@ -285,7 +285,9 @@ class JobsStream(Stream):
               "type": [
                 "null",
                 "object"
-              ]
+              ],
+              "properties": {
+              }
             }
           }
         },
